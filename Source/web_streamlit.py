@@ -5,6 +5,9 @@ import pandas as pd
 # Load the trained model
 model = pickle.load(open('Diabetes_prediction.sav', 'rb'))
 
+# Load the scaler
+scaler = pickle.load(open('scaler.sav', 'rb'))
+
 # Page Title and Info
 st.title('DiabetesGuard: Early Prediction of Diabetes Using Machine Learning')
 st.info("This app predicts the likelihood of diabetes using health metrics based on the Pima Indians Diabetes Dataset. Please enter the required values in the fields below.")
@@ -37,12 +40,16 @@ input_data = pd.DataFrame({
     'Age': [Age]
 })
 
+input_data_scaled = scaler.transform(input_data)
+
 # Make prediction and show result
 if confirm:
     with st.spinner('Predicting...'):
-        prediction = model.predict(input_data)
+        prediction = model.predict(input_data_scaled)
+        st.write(input_data_scaled)
+        st.write(f'Prediction: {prediction}')  # Add this line to check output
 
-    if prediction == 1:
+    if prediction[0] == 1:
         st.success('🚨 **Diabetes Detected** 🚨')
         st.image('https://www.shutterstock.com/image-vector/cute-blood-drop-cartoon-character-600nw-2514685229.jpg', width=200)
     else:
@@ -51,3 +58,5 @@ if confirm:
 
 # Optional Footer with Information
 st.sidebar.markdown("Developed with ❤️ using Streamlit and Scikit-learn.")
+
+
