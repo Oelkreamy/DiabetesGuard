@@ -46,8 +46,6 @@ input_data_scaled = scaler.transform(input_data)
 if confirm:
     with st.spinner('Predicting...'):
         prediction = model.predict(input_data_scaled)
-        st.write(input_data_scaled)
-        st.write(f'Prediction: {prediction}')  # Add this line to check output
 
     if prediction[0] == 1:
         st.success('🚨 **Diabetes Detected** 🚨')
