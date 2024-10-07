@@ -3,10 +3,10 @@ import streamlit as st
 import pandas as pd
 
 # Load the trained model
-model = pickle.load(open(r'Source\\Diabetes_prediction.sav', 'rb'))
+model = pickle.load(open(r'oelkreamy/diabetesguard/main/Source/Diabetes_prediction.sav', 'rb'))
 
 # Load the scaler
-scaler = pickle.load(open(r'Source\\scaler.sav', 'rb'))
+scaler = pickle.load(open(r'oelkreamy/diabetesguard/main/Source/scaler.sav', 'rb'))
 
 # Page Title and Info
 st.title('DiabetesGuard: Early Prediction of Diabetes Using Machine Learning')
