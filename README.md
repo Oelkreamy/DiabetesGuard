@@ -64,7 +64,7 @@ The dashboard provides multiple visualizations to help users understand the data
 4. **Outcome Analysis**: Box plots that break down features by diabetes outcome (positive or negative).
 
 ### Dashboard Snapshot
-![Dashboard Example](url_to_dashboard_image)
+![Dashboard Example]([url_to_dashboard_image](https://drive.google.com/file/d/1c6XG0VTPQis8kOPU0WOsiqMEGLZ1nfxu/view?usp=sharing))
 
 ## 🌐 Web Application Link
 
