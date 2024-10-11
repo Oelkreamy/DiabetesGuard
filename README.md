@@ -69,10 +69,10 @@ The dashboard provides multiple visualizations to help users understand the data
 ## 🌐 Web Application Link
 
 You can access the Streamlit web application here:  
-[DiabetesGuard Web App](your-streamlit-web-app-link)
+[DiabetesGuard Web App](https://oelkreamy-diabetesguard-sourceweb-streamlit-vsfcxd.streamlit.app/)
 
 ### Web Application Screenshot
-![Streamlit App Interface](url_to_streamlit_app_image)
+![Streamlit App Interface](https://drive.google.com/uc?export=view&id=1qvv7rAtlmy5UZQMAuczKssvyZcDe2rss)
 
 ## 🛠️ Installation & Setup
 
@@ -119,9 +119,3 @@ Contributions are welcome! If you have suggestions, bug reports, or want to impr
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-### Next Steps
-1. Replace `url_to_dashboard_image` and `url_to_streamlit_app_image` with the actual URLs or file paths of images/screenshots.
-2. Insert your Streamlit web app link where it says `your-streamlit-web-app-link`.
-
-This README now reflects the functionality of your project files, with a clear explanation for users and contributors! Let me know if you need further adjustments.
