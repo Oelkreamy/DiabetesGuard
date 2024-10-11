@@ -21,12 +21,12 @@
 
 The project repository contains the following key files and directories:
 
-### `app.py`
+### `web_streamlit.py`
 This is the **main file** of the project. It contains the Streamlit web application code, including the user interface and interactions with the machine learning model. The file handles:
 
 - **User Input**: Collecting patient medical data (e.g., glucose, insulin, etc.) through the web interface.
 - **Prediction Logic**: Loading the trained machine learning model and using it to make predictions.
-- **Visualization**: Displaying the prediction results and additional charts based on the input data.
+- **Visualization**: Displaying the prediction results and additional pictures based on the input data.
 
 ### `model.py`
 This file contains the machine learning logic. It includes:
