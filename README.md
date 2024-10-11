@@ -1,6 +1,3 @@
-Based on the contents of the files, here’s an enhanced version of the README file for your **DiabetesGuard** project, with explanations for all the files, visuals, and web app link placeholders.
-
-```markdown
 # DiabetesGuard
 
 **DiabetesGuard** is a machine learning-powered web application designed to predict the likelihood of diabetes in individuals based on health metrics. The app provides healthcare professionals and users with insights derived from the **Pima Indians Diabetes Dataset** to detect early signs of diabetes.
